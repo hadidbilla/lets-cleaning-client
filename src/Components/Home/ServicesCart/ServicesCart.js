@@ -15,11 +15,15 @@ const ServicesCart = ({ service }) => {
       style={{ width: "18rem", border: "0px" }}
     >
       <div className="text-center mt-3">
-        <Card.Img
-          variant="top"
-          style={{ height: "70px", width: "80px" }}
-          src={img}
-        />
+        <div className="img-hover-zoom card-img-top">
+          <img
+            style={{ height: "70px", width: "80px" }}
+            src={img}
+            className=""
+            alt=""
+            srcset=""
+          />
+        </div>
       </div>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
